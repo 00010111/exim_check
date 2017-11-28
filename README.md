@@ -23,7 +23,7 @@ Usage:
 	Enable check for SMTPS. DEFAULT: No check for SMTPS
 -p, --port &lt;PORTNUMBER,...&gt;
 	Comma-separated list of port for SMTP. DEFAULT: 25,587
--a, --portsmtps &lt;PROTNUMBER,...&gt;
+-a, --portsmtps &lt;PORTNUMBER,...&gt;
 	Comma-separated list of port for SMTPS. DEFAULT: 465
 -v, --verbose
 	enable verbose output. DEFAULT: non verbose output

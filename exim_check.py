@@ -15,7 +15,7 @@ def usage():
 	print "-d, --domain <DOMAIN> \n\tThe Domain or IP you want to check. Mandatory to provide one domain or IP"
 	print "-s, --smtps \n\tEnable check for SMTPS. DEFAULT: No check for SMTPS"
 	print "-p, --port <PORTNUMBER,...>\n\tComma-separated list of port for SMTP. DEFAULT: 25,587"
-	print "-a, --portsmtps <PROTNUMBER,...>\n\tComma-separated list of port for SMTPS. DEFAULT: 465"
+	print "-a, --portsmtps <PORTNUMBER,...>\n\tComma-separated list of port for SMTPS. DEFAULT: 465"
 	print "-v, --verbose \n\tenable verbose output. DEFAULT: non verbose output"
 	print "-t, --timeout <SECONDS>\n\tTimeout for Socket Connection in seconds DEFAULT: 10"
 	print "Examples:"
