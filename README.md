@@ -17,21 +17,21 @@ Contact author on twitter: @b00010111<br/>
 
 <pre>
 Usage: 
--d, --domain <DOMAIN><br/> 
-	The Domain or IP you want to check. Mandatory to provide one domain or IP<br/>
--s, --smtps <br/>
-	Enable check for SMTPS. DEFAULT: No check for SMTPS<br/>
--p, --port <PORTNUMBER,...><br/>
-	Comma-separated list of port for SMTP. DEFAULT: 25,587<br/>
--a, --portsmtps <PROTNUMBER,...><br/>
-	Comma-separated list of port for SMTPS. DEFAULT: 465<br/>
--v, --verbose <br/>
-	enable verbose output. DEFAULT: non verbose output<br/>
--t, --timeout <SECONDS><br/>
-	Timeout for Socket Connection in seconds DEFAULT: 10<br/>
-Examples:<br/>
-	 exim_check.py -d 127.0.0.1 			#checks localhost SMTP on port 25,587<br/>
-	 exim_check.py -d 127.0.0.1 -v 			#checks localhost SMTP on port 25,587 with verbose output<br/>
-	 exim_check.py -d 127.0.0.1 -s 			#checks localhost SMTP on port 25,587 & SMTPS 465<br/>
-	 exim_check.py -d 127.0.0.1 -s -p 33 -a 45 	#checks localhost SMTP on port 33 & SMTPS 45<br/>
+-d, --domain &lt;DOMAIN&gt; 
+	The Domain or IP you want to check. Mandatory to provide one domain or IP
+-s, --smtps 
+	Enable check for SMTPS. DEFAULT: No check for SMTPS
+-p, --port <PORTNUMBER,...>
+	Comma-separated list of port for SMTP. DEFAULT: 25,587
+-a, --portsmtps <PROTNUMBER,...>
+	Comma-separated list of port for SMTPS. DEFAULT: 465
+-v, --verbose
+	enable verbose output. DEFAULT: non verbose output
+-t, --timeout <SECONDS>
+	Timeout for Socket Connection in seconds DEFAULT: 10
+Examples:
+	 exim_check.py -d 127.0.0.1 			#checks localhost SMTP on port 25,587
+	 exim_check.py -d 127.0.0.1 -v 			#checks localhost SMTP on port 25,587 with verbose output
+	 exim_check.py -d 127.0.0.1 -s 			#checks localhost SMTP on port 25,587 & SMTPS 465
+	 exim_check.py -d 127.0.0.1 -s -p 33 -a 45 	#checks localhost SMTP on port 33 & SMTPS 45
 </pre>
