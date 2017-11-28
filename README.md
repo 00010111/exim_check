@@ -21,13 +21,13 @@ Usage:
 	The Domain or IP you want to check. Mandatory to provide one domain or IP
 -s, --smtps 
 	Enable check for SMTPS. DEFAULT: No check for SMTPS
--p, --port <PORTNUMBER,...>
+-p, --port &lt;PORTNUMBER,...&gt;
 	Comma-separated list of port for SMTP. DEFAULT: 25,587
--a, --portsmtps <PROTNUMBER,...>
+-a, --portsmtps &lt;PROTNUMBER,...&gt;
 	Comma-separated list of port for SMTPS. DEFAULT: 465
 -v, --verbose
 	enable verbose output. DEFAULT: non verbose output
--t, --timeout <SECONDS>
+-t, --timeout &lt;SECONDS&gt;
 	Timeout for Socket Connection in seconds DEFAULT: 10
 Examples:
 	 exim_check.py -d 127.0.0.1 			#checks localhost SMTP on port 25,587
