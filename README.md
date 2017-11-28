@@ -15,8 +15,8 @@ Keep in mind: A fool with a tool is still a fool.<br/>
 Contact author on twitter: @b00010111<br/>
 
 
-
-Usage: <br/>
+<pre>
+Usage: 
 -d, --domain <DOMAIN><br/> 
 	The Domain or IP you want to check. Mandatory to provide one domain or IP<br/>
 -s, --smtps <br/>
@@ -34,4 +34,4 @@ Examples:<br/>
 	 exim_check.py -d 127.0.0.1 -v 			#checks localhost SMTP on port 25,587 with verbose output<br/>
 	 exim_check.py -d 127.0.0.1 -s 			#checks localhost SMTP on port 25,587 & SMTPS 465<br/>
 	 exim_check.py -d 127.0.0.1 -s -p 33 -a 45 	#checks localhost SMTP on port 33 & SMTPS 45<br/>
-
+</pre>
